@@ -1,67 +1,194 @@
 body {
-    font-family: sans-serif;
-    background-color: #1F2937;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-    margin: 0;
+  font-family: sans-serif;
+  background-color: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: auto;
 }
 ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  width: 80vw;
+  margin: auto;
 }
 
 .headerlogo {
-    color: #F9FAF8;
-    font-size: 18px;
-    font-weight: 800;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.toppart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.top-leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.topbutton {
+  color: white;
+  background-color: #3882f6;
+  width: 150px;
+  font-weight: 700;
+  font-size: 12pt;
+  border-radius: 7px;
+  height: 50px;
+}
+
+.top-rightside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 600px;
+  background-color: gray;
+  color: white;
+  margin-left: 100px;
 }
 
 .gallery {
-    background-color: white;
-    flex-grow: 1;
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gallerytitle {
+  color: #1f2937;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.cardset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  gap: 10px;
+  color: #1f2937;
+}
+
+.cardimg {
+  height: 150px;
+  width: 150px;
+  border: 5px solid blue;
+  border-radius: 15px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-grow: 1;
+  border: 100px;
+  padding: 20px 200px;
+}
+
+.quotetxt {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+}
+.qutoeauth {
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+  align-self: end;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100px;
-    color: #F9FAF8;
-    font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  color: #f9faf8;
+  font-size: 18px;
 }
 
 .call {
-    background-color: white;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    border: 100px;
-
+  background-color: white;
+  color: white;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  border: 100px;
 }
 
 .callwindow {
-    background-color: #3882F6;
-    display: flex;
-    padding: 20px;
-    box-shadow: #1F2937;
-    border-radius: 7px;
-    gap: 20px;
+  background-color: #3882f6;
+  display: flex;
+  padding: 50px 100px;
+  box-shadow: #1f2937;
+  border-radius: 7px;
+  gap: 150px;
+}
+
+.calltitle {
+  font-weight: 600;
+  font-size: 20pt;
+}
+.callbutton {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 7px;
+  border: 2px solid white;
+  width: 150px;
+  font-weight: 700;
+  font-size: 12pt;
 }
